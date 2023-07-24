@@ -1,0 +1,138 @@
+body{
+    background-color:rgb(206, 190, 241) ;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-weight:800;
+    font-size:48px;
+    margin:0;
+
+}
+h2{
+    margin:0;
+}
+p{
+    font-size:20px;
+}
+.header{
+    font-family: monospace;
+    background-color: rgb(206, 190, 241);
+    display:flex;
+    padding:60px;
+    justify-content: space-between;
+    border:30px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+ul{
+    list-style-type:none;
+    display:flex;
+    margin: 0;
+    padding: 0;
+    gap: 32px;
+}
+.upper{
+    display:flex;
+    flex-direction: row;
+    padding:0px;
+    margin-left:100px;
+    margin-right:100px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+
+}
+.description{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    padding: 16px;
+    margin: 16px;
+
+}
+button{
+    cursor:pointer;
+    padding:8px 16px;
+    border-radius:8px;
+}
+button.sign-up{
+    background:royalblue;
+    border:1px solid royalblue;
+    color:white;
+}
+img.candy{
+    max-width: 500px;
+    max-height:200px;
+}
+.section{
+    display:flex;
+    flex-direction: column;
+}
+.second{
+    margin:0 -8px; 
+    padding:0 8px;
+    background-color:azure;
+    margin-top: 0px;
+
+}
+.second img{
+    width:100px;
+    height:100px;
+}
+.all{
+    margin-left: 100px;
+    margin-right: 100px;
+    display:flex;
+    justify-content:space-between;
+    gap:52px;
+  }
+.fruit{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+  }
+.third-background{
+    margin:0 -8px; 
+    padding:0 8px;
+    background-color:lightgray;
+    
+}
+.third-flex{
+  
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    margin:100px;
+    
+}
+.section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    display:flex;
+    margin-top:50px;
+    margin-bottom: 50px;
+    background-color: rgb(116, 116, 243);
+    border-radius: 10px;
+    flex-direction:row;
+    padding:20px;
+    align-items: center;
+    color:white;
+}
+button.second{
+    margin:10px;
+    margin-left: 20px;
+    background:rgb(116, 116, 243);
+    border:1px solid white;
+    color:white;
+
+}
+.footer{
+    font-size: small;
+    text-align: center;
+    margin: 20px;
+}
